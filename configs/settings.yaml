@@ -1,10 +1,10 @@
-universe: ["AAPL","MSFT","NVDA","AMZN","GOOGL","META","JPM","XOM","V","HD","BAC","ORCL","COST","TSLA","UNH","LLY","AVGO","PG","MA","PEP"]
+universe: ["AAPL","MSFT","NVDA","AMZN","GOOGL","META"]
 start_date: "2018-01-01"
 lookback_days: 252
 skip_days: 21
 trail_cov_days: 60
-top_decile: 0.10
-bottom_decile: 0.10
+top_decile: 0.20
+bottom_decile: 0.20
 target_ann_vol: 0.10
 max_weight_per_name: 0.03
 fixed_cost_bps: 8
