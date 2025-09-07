@@ -1,0 +1,35 @@
+CROSS-SECTIONAL MOMENTUM BACKTEST SUMMARY
+==================================================
+
+PERFORMANCE METRICS:
+------------------------------
+IS Sharpe: -0.61
+OOS Sharpe: 0.13
+B&H Sharpe: 0.49
+IS CAGR: -21.8%
+OOS CAGR: -1.7%
+IS Volatility: 30.5%
+OOS Volatility: 32.6%
+IS Max DD: -50.3%
+OOS Max DD: -60.9%
+Avg Turnover: 111.4%
+
+DONE-WHEN FLAGS:
+--------------------
+OOS Sharpe > B&H Sharpe: FAIL
+Avg Turnover <= 60%: FAIL
+Slippage Modeled: PASS
+Overall: 1/3 flags passed
+
+BACKTEST CONFIGURATION:
+-------------------------
+Universe Size: 6
+Lookback Days: 252
+Skip Days: 21
+Top Decile: 20.0%
+Bottom Decile: 20.0%
+Target Vol: 10.0%
+Max Weight: 3.0%
+Fixed Cost: 8 bps
+Impact K: 15
+IS End Date: 2021-12-31

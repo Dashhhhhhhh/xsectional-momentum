@@ -58,9 +58,6 @@ cache/
 
 # Output files
 out/
-*.png
-*.csv
-*.txt
 
 # Jupyter
 .ipynb_checkpoints/
