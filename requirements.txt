@@ -1,0 +1,12 @@
+pandas
+numpy
+scipy
+requests
+requests-cache
+python-dateutil
+tqdm
+pydantic
+matplotlib
+alpaca-trade-api
+python-dotenv
+PyYAML

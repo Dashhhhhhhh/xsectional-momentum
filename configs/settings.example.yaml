@@ -1,0 +1,14 @@
+universe: ["AAPL","MSFT","NVDA","AMZN","GOOGL","META","JPM","XOM","V","HD","BAC","ORCL","COST","TSLA","UNH","LLY","AVGO","PG","MA","PEP"]
+start_date: "2018-01-01"
+lookback_days: 252
+skip_days: 21
+trail_cov_days: 60
+top_decile: 0.10
+bottom_decile: 0.10
+target_ann_vol: 0.10
+max_weight_per_name: 0.03
+fixed_cost_bps: 8
+impact_k: 15
+adv_window: 20
+is_end: "2021-12-31"
+use_alpaca: false
