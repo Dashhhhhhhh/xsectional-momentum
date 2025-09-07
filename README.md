@@ -1,5 +1,4 @@
-# Cross-Sectional Momentum (Stocks-Only)
-
+# Cross-Sectional Momentum
 ## Setup
 
 ```bash
